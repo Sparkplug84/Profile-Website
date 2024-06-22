@@ -10,12 +10,12 @@ defineProps({
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <h3 class="text-red-500">
+    <h3 class="text-blue-500">
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
-    <div class="w-full h-20 bg-gray-500"></div>
+    <div class="w-full h-20 bg-green-500"></div>
   </div>
 </template>
 
