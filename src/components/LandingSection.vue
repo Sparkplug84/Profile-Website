@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+import PrimaryButton from './PrimaryButton.vue'
+import SecondayButton from './SecondaryButton.vue'
+</script>
 
 <template>
   <div class="flex items-center h-screen w-screen text-white">
@@ -6,19 +9,16 @@
     <div class="absolute h-screen w-screen bg-black opacity-75"></div>
     <div class="absolute left-1/4">
       <p class="text-2xl opacity-0 animate-fadeInLeft animation-delay-1s">Web Developer</p>
-      <!-- animation-delay-500 -->
       <img
         class="opacity-0 h-20 md:h-40 animate-fadeInRight animation-delay-1s"
         src="../assets/NameLogo.png"
         alt=""
       />
+      <div class="opacity-0 mt-6 flex space-x-6 animate-fadeInUp animation-delay-1s">
+        <PrimaryButton :text="'Explore my work'" />
+        <SecondayButton :text="'Contact me'" />
+      </div>
     </div>
-    <!-- <h1>Web Developer</h1> -->
   </div>
 </template>
-<style scoped>
-/* .animation-delay-500 {
-  animation-delay: 500ms;
-} */
-/* .animate */
-</style>
+<style scoped></style>

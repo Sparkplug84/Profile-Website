@@ -16,7 +16,6 @@ function toggleMobileMenu() {
     >
       <div>
         <img src="../assets/logo3.png" alt="" class="h-6 md:h-10" />
-        <!-- <logo></logo> -->
       </div>
       <div class="hidden md:flex space-x-8">
         <p>About</p>
@@ -24,7 +23,6 @@ function toggleMobileMenu() {
         <p>Projects</p>
         <p>Contact</p>
       </div>
-      <!-- @mobileMenuActive="toggleMobileMenu()" -->
       <HamburgerButton
         class="block md:hidden"
         @click="toggleMobileMenu()"
