@@ -4,7 +4,7 @@ const props = defineProps({ text: { type: String } })
 
 <template>
   <div
-    class="h-12 text-white flex items-center justify-center w-fit px-10 border-2 border-white cursor-pointer hover:bg-gradient-to-r hover:from-[#6ee1f5] hover:to-[#6152e4] border-gradient border-gradient-color"
+    class="h-12 text-white flex items-center justify-center w-auto px-10 border-2 border-white cursor-pointer hover:bg-gradient-to-r hover:from-[#6ee1f5] hover:to-[#6152e4] border-gradient border-gradient-color"
   >
     <p>{{ props.text }}</p>
   </div>

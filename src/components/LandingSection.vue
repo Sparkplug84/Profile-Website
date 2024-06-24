@@ -14,9 +14,11 @@ import SecondayButton from './SecondaryButton.vue'
         src="../assets/NameLogo.png"
         alt=""
       />
-      <div class="opacity-0 mt-6 flex space-x-6 animate-fadeInUp animation-delay-1s">
+      <div
+        class="opacity-0 mt-6 block md:flex space-x-0 md:space-x-6 animate-fadeInUp animation-delay-1s"
+      >
         <PrimaryButton :text="'Explore my work'" />
-        <SecondayButton :text="'Contact me'" />
+        <SecondayButton class="mt-4 md:mt-0" :text="'Contact me'" />
       </div>
     </div>
   </div>
